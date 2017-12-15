@@ -1,0 +1,10 @@
+<body>
+<div class="button">
+	<input type="button" name="start" value="start" (click)="stopwatch.start()">
+	<input type="button" name="stop" value="stop" (click)="stopwatch.stop()">
+	<input type="button" name="reset" value="reset" (click)="stopwatch.reset()">
+		<input type="button" name="restart" value="restart" (click)="stopwatch.restart()">
+</div>
+
+<div id="stopwatch">{{ stopwatch.display() }}</div>
+</body>
